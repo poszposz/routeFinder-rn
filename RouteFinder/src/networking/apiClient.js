@@ -1,9 +1,8 @@
 import axios from 'axios';
 import axiosMiddleware from 'redux-axios-middleware';
-import api from './constants/api';
 
 const client = axios.create({
-  baseURL: `${api.BASE_URL}`,
+  baseURL: `http://example.com`,
   responseType: 'json',
 });
 
