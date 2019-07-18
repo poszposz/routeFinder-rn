@@ -1,6 +1,7 @@
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 import {
-  HomeScreen
+  HomeScreen,
+  MapScreen,
 } from '../screens';
 
 const mainStakcNavigator = createStackNavigator(
@@ -8,6 +9,9 @@ const mainStakcNavigator = createStackNavigator(
     HomeScreen: {
       screen: HomeScreen,
     },
+    MapScreen: {
+      screen: MapScreen
+    }
   },
 );
 

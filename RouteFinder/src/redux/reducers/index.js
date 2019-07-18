@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import sampleReducer from './sampleReducer/SampleReducer';
+import searchReducer from './searchReducer/SearchReducer';
 
 export default combineReducers({
-  sampleReducer,
+  searchReducer,
 });
